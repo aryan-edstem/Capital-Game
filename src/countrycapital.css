@@ -1,0 +1,8 @@
+button:active,
+button.clicked{
+    background-color: blue;
+}
+
+.correct{
+    background-color: green;
+}

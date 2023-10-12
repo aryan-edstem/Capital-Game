@@ -4,7 +4,10 @@ import CountryCapital from './countrycapital';
 function App() {
   const data = {
     India: "New Delhi",
-    Australia:"Canberrra"
+    Australia:"Canberrra",
+    Angola:"Luanda",
+    Bahrain:"Manama",
+    China:"Beijing"
   }
   
   return (
