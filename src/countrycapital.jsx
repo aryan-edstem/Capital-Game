@@ -4,7 +4,8 @@ function CountryCapital(props){
     const {data}=props
     return(
         <div>
-            <button>{data.India}</button>
+            <button onClick={handleCapitalCheck}>{data.India}</button>
+            <button onClick={handleCapitalCheck}>{data.Australia}</button>
         </div>
     )
 }

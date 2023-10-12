@@ -6,7 +6,8 @@ function App() {
     India: "New Delhi",
     Australia:"Canberrra"
 }
-
+  const list = (data.keys)
+  console.log(list)
   return (
     <div className="App">
       <CountryCapital data={data} />
